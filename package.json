@@ -1,0 +1,11 @@
+{
+  "name": "sdi-project-1-scaffold-repo",
+  "version": "1.0.0",
+  "description": "SDI-Project-1-scaffold-repo \"Movie Rating App\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

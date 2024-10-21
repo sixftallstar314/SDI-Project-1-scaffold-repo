@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Snuffy's Movie & TV App</title>
+    <link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/media-colorful-1/48/film_roll-1024.png"/>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <h1>Private Snuffy's: Movie & TV Rating Finder</h1>
+        <input type="text" id="movie-input" placeholder="Enter movie title here...">
+        <button id="search-button">Search</button>
+        <div id="movie-poster" 
+            style = margin-top:20px;></div>
+        <div id="rating-result"></div>
+        <div id="movie-plot"></div>
+        <a href="https://www.imdb.com/chart/tvmeter/" target="_blank"
+            style="display: block; margin-top: 20px;">Popular TV Shows</a>
+        <a href="https://www.imdb.com/chart/moviemeter/"  target="_blank"
+            style="display: block; margin-top: 20px;">Popular Movies</a>
+    </div>
+    <div class="app-container2">
+        <h2>Searches</h2>
+    <ol id="search-history"></ol>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

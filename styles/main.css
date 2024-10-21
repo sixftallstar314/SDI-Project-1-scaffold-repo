@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/movie-background-collage_23-2149876028.jpg);;
+}
+#search-history li {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+.app-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+}
+.app-container2 {
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    background: white;
+    background: white;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    width: 10%;
+    max-width: 200px;
+    font-family: Arial, sans-serif;
+}
+input[type="text"] {
+    margin-top: 10px;
+    padding: 10px;
+    width: calc(100% - 24px);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#rating-result,
+#movie-plot {
+    margin-top: 20px; /* Adds space between button and results sections */
+    font-size: 1.1em;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    align-items: center;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#rating-result, #movie-plot {
+    text-align: center;
+    font-family: Arial, sans-serif;
+} 
+
+
