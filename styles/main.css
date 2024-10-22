@@ -36,7 +36,20 @@ body{
     width: 10%;
     max-width: 200px;
     font-family: Arial, sans-serif;
-    opacity: 0.6;
+}
+.app-container3 {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background: white;
+    background: white;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    width: 10%;
+    max-width: 200px;
+    font-family: Arial, sans-serif;
+    
 }
 input[type="text"] {
     margin-top: 10px;
