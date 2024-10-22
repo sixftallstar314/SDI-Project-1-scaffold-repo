@@ -24,7 +24,7 @@ function userSearch() {
                 posterResult.innerHTML = `<img src="${data.Poster}">`;
                 ratingResult.textContent = `The Movie "${data.Title}" is rated:${data.Rated}`;
                 moviePlot.innerHTML = `The Movie "${data.Title}" plot is:<br><br> ${data.Plot}`;
-                if (data.Rated === 'R' || data.Rated === 'NC-17' || data.Rated === 'TV-MA' || data.Rated ) {
+                if (data.Rated === 'R' || data.Rated === 'NC-17' || data.Rated === 'TV-MA' ) {
                     ratingResult.style.color = 'red';
                     ratingResult.textContent += " - Do Not Play this Movie or TV Show per Detachment Policy";
                 } else {
