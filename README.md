@@ -31,3 +31,9 @@ How to Use
 2. See available Information
 3. Determine if Movie/TV Show is work appropriate
 4. Links to current popular movies are provided 
+
+How to install and Run
+---------------------------------
+1. Fork and Clone Repository 
+2. Open with VS Code 
+3. Run index.html in Live Server 
